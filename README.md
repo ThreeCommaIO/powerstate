@@ -6,5 +6,6 @@ note: this is only a big hammer approach for testing.
 
 In grub set the following on boot to set a max cstate and set the intel_idle driver:
 
-```processor.max_cstate=1 intel_idle.max_cstate=1
+```
+processor.max_cstate=1 intel_idle.max_cstate=1
 ``` 
